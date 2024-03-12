@@ -29,3 +29,5 @@ EOT
 
 # Construir la imagen de Docker
 docker build -t mypythonapp:latest mypythonapp/
+
+docker run -d -p 5000:5000 mypythonapp:latest
